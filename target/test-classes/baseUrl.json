@@ -1,0 +1,100 @@
+{
+  "AlexandreBirman": {
+    "prd": {
+      "url": "https://backoffice.alexandrebirman.com.br/"
+    },
+    "tst": {
+      "url": "https://integ:ulPap1ed@integ02.alexandrebirman.com.br/"
+    },
+    "hml": {
+      "url": "https://descomplica:descomplica@preprod.alexandrebirman.com.br/"
+    },
+    "lcl": {
+      "url": "https://alexandrebirman.local:9002/"
+    }
+  },
+  "Anacapri": {
+    "prd": {
+      "url": "https://backoffice.anacapri.com.br/"
+    },
+    "tst": {
+      "url": "https://integ:ulPap1ed@integ02.anacapri.com.br/sapatos/sapatilhas/sandalia-mule-preta/p/0018606480229U"
+    },
+    "hml": {
+      "url": "https://descomplica:descomplica@preprod.anacapri.com.br/"
+    },
+    "lcl": {
+      "url": "https://anacapri.local:9002/"
+    }
+  },
+  "Arezzo": {
+    "prd": {
+      "url": "https://backoffice.arezzo.com.br/"
+    },
+    "tst": {
+      "url": "https://integ:ulPap1ed@integ02.arezzo.com.br/sapatos/sandalias/sandalia-anabela-marrom/p/0366001720002U"
+    },
+    "hml": {
+      "url": "https://descomplica:descomplica@preprod.arezzo.com.br/sapatos/sandalias/sandalia-anabela-marrom/p/0366001720002U"
+    },
+    "lcl": {
+      "url": "https://arezzo.local:9002/"
+    }
+  },
+  "Fiever": {
+    "prd": {
+      "url": "https://backoffice.fiever.com.br/"
+    },
+    "tst": {
+      "url": "https://integ:ulPap1ed@integ02.fiever.com.br/"
+    },
+    "hml": {
+      "url": "https://descomplica:descomplica@preprod.fiever.com.br/"
+    },
+    "lcl": {
+      "url": "https://fiever.local:9002/"
+    }
+  },
+  "Outstore": {
+    "prd": {
+      "url": "https://backoffice.outstore.com.br/"
+    },
+    "tst": {
+      "url": "https://integ:ulPap1ed@integ02.outstore.com.br/"
+    },
+    "hml": {
+      "url": "https://descomplica:descomplica@preprod.outstore.com.br/"
+    },
+    "lcl": {
+      "url": "https://outstore.local:9002/"
+    }
+  },
+  "Owme": {
+    "prd": {
+      "url": "https://backoffice.somosalme.com.br/"
+    },
+    "tst": {
+      "url": "https://integ:ulPap1ed@integ02.somosalme.com.br/"
+    },
+    "hml": {
+      "url": "https://descomplica:descomplica@preprod.somosalme.com.br/"
+    },
+    "lcl": {
+      "url": "https://somosalme.local:9002/"
+    }
+  },
+  "Schutz": {
+    "prd": {
+      "url": "https://backoffice.schutz.com.br/"
+    },
+    "tst": {
+      "url": "https://integ:ulPap1ed@integ02.schutz.com.br/"
+    },
+    "hml": {
+      "url": "https://descomplica:descomplica@preprod.schutz.com.br/"
+    },
+    "lcl": {
+      "url": "https://schutz.local:9002/"
+    }
+  }
+}

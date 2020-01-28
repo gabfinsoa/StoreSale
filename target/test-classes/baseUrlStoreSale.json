@@ -1,0 +1,45 @@
+{
+
+  "Anacapri": {
+    "prd": {
+      "url": ""
+    },
+    "tst": {
+      "url": ""
+    },
+    "hml": {
+      "url": ""
+    },
+    "lcl": {
+      "url": ""
+    }
+  },
+  "Arezzo": {
+    "prd": {
+      "url": "https://www.arezzo.com.br/storesale/login"
+    },
+    "tst": {
+      "url": "https://integ:ulPap1ed@integ02.arezzo.com.br/storesale/login"
+    },
+    "hml": {
+      "url": "https://preprod.arezzo.com.br/storesale/login"
+    },
+    "lcl": {
+      "url": ""
+    }
+  },
+  "Schutz": {
+    "prd": {
+      "url": ""
+    },
+    "tst": {
+      "url": ""
+    },
+    "hml": {
+      "url": ""
+    },
+    "lcl": {
+      "url": ""
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+
+  "Anacapri": {
+    "prd": {
+      "loja": ""
+    },
+    "tst": {
+      "loja": ""
+    },
+    "hml": {
+      "loja": ""
+    },
+    "lcl": {
+      "loja": ""
+    }
+  },
+  "Arezzo": {
+    "prd": {
+      "loja": ""
+    },
+    "tst": {
+      "loja": "100"
+    },
+    "hml": {
+      "loja": "100178"
+    },
+    "lcl": {
+      "loja": ""
+    }
+  },
+  "Schutz": {
+    "prd": {
+      "loja": ""
+    },
+    "tst": {
+      "loja": ""
+    },
+    "hml": {
+      "loja": ""
+    },
+    "lcl": {
+      "loja": ""
+    }
+  }
+}
