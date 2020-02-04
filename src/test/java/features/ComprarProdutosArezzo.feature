@@ -35,6 +35,7 @@ Feature: Buy items Arezzo
     And I insert the Store Sale User
     And I click the Entrar button on Home Page
     And I find the order
+    And I accept the store sale order
 
     Examples:
       | username                     | password  |

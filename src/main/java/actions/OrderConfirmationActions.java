@@ -3,18 +3,22 @@ package actions;
 import objects.OrderConfirmationObjects;
 import org.openqa.selenium.WebDriver;
 
+import java.util.concurrent.TimeUnit;
+
 public class OrderConfirmationActions extends OrderConfirmationObjects {
     public OrderConfirmationActions(WebDriver driver){
         super(driver);
     }
 
-    public String varOrderConfirmation = "";
+    public static String varOrderConfirmation = "";
 
 
-    public void doGetOrderNumberOrderConfirmationLabelAction(){
+    public String doGetOrderNumberOrderConfirmationLabelAction(){
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         waitElement(orderConfirmationOrderNumberLabel);
         varOrderConfirmation = getText(orderConfirmationOrderNumberLabel);
         System.out.println(varOrderConfirmation);
+        return varOrderConfirmation;
 
     }
 

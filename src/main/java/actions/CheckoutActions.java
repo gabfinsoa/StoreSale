@@ -3,6 +3,8 @@ package actions;
 import objects.CheckoutObjects;
 import org.openqa.selenium.WebDriver;
 
+import java.util.concurrent.TimeUnit;
+
 public class CheckoutActions extends CheckoutObjects {
     public CheckoutActions(WebDriver driver){
         super(driver);
@@ -76,5 +78,6 @@ public class CheckoutActions extends CheckoutObjects {
     public void doCreditCartFinishOrderButtonAction(){
         waitElement(checkoutFinishOrderCreditCartButton);
         clickElement(checkoutFinishOrderCreditCartButton);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     }
 }

@@ -12,8 +12,6 @@ public class StoreSaleHomepageActions extends StoreSaleHomepageObjects {
     public void doGetStoreSaleUrlBaseAction(){
         String urlStoreSale = Utils.getBaseUrlStoreSale();
         System.out.println("SITE: "+urlStoreSale);
-        System.out.println("SITE: "+urlStoreSale);
-        System.out.println("SITE: "+urlStoreSale);
         driver.get(urlStoreSale);
 
     }

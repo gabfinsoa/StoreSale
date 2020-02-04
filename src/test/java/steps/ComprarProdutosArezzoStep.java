@@ -183,4 +183,15 @@ public class ComprarProdutosArezzoStep {
     public void iClickTheEntrarButtonOnHomePage() {
         InitStoreSaleHomepage.doClickLoginStoreSaleHomePageLogin();
     }
+
+    @And("^I find the order$")
+    public void iFindTheOrder() {
+        InitStoreSaleDashOrdersPage.doGetStoreSaleDashOrderNumber();
+        InitStoreSaleDashOrdersPage.doGetFindStoreSaleOrderNumber();
+//        InitStoreSaleDashOrdersPage.doGetConfirmOrder();
+    }
+
+    @And("^I accept the store sale order$")
+    public void iAcceptTheStoreSaleOrder() {
+    }
 }

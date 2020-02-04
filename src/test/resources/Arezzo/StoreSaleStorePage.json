@@ -1,0 +1,49 @@
+{
+  "StoreSaleStorePage": {
+
+    "VerPedidoBt":{
+      "type": "CSS",
+      "value": ".sts-view-order"
+    },
+    "AtenderPedidoSimBt": {
+      "type": "CSS",
+      "value": ".sts-button-positive"
+    },
+    "AtenderPedidoNaoBt": {
+      "type": "CSS",
+      "value": ".sts-button-negative"
+    },
+    "EanInput": {
+      "type": "CSS",
+      "value": ".sts-modal-body-product-ean input"
+    },
+    "OrderRow": {
+      "type": "CSS",
+      "value": ".sts-grid-body-row[data-order-id=%A] button"
+    },
+    "DashboardConfirm": {
+      "type": "CSS",
+      "value": ".sts-button-modal-md"
+    },
+    "DashboardModalClose": {
+      "type": "CSS",
+      "value": ".sts-modal-close"
+    },
+    "DesistirVendaBt": {
+      "type": "XPATH",
+      "value": "//span[@data-js=\"sts-modal-revoke-reason\"]"
+    },
+    "MotivoDesistenciaSelect": {
+      "type": "ID",
+      "value": "reasonRevoke"
+    },
+    "MotivoDesistenciaOptionSelect": {
+      "type": "CSS",
+      "value": "#reasonRevoke > option[value=%s]"
+    },
+    "MotivoDesistenciaInput": {
+      "type": "ID",
+      "value": "description"
+    }
+  }
+}

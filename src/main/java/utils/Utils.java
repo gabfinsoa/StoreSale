@@ -12,6 +12,7 @@ import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.TimeUnit;
 
 public class Utils {
 
@@ -123,6 +124,7 @@ public class Utils {
     }
 
     public void waitElement(WebElement elemento){
+//        driver.manage().timeouts().pageLoadTimeout(4, TimeUnit.SECONDS);
         fluentWaitElement.until(ExpectedConditions.visibilityOf(elemento));
     }
 
